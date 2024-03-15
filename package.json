@@ -1,0 +1,15 @@
+{
+  "name": "yarn-monorepo-template",
+  "packageManager": "yarn@4.1.1",
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "4.1.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "app": "yarn workspace app",
+    "library": "yarn workspace library"
+  }
+}
