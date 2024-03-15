@@ -1,4 +1,4 @@
-# test-yarn-monorepo-template
+# yarn monorepo template (really simple)
 
 - yarn 4
 - packages/\*
